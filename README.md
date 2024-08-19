@@ -176,7 +176,7 @@ Adding properties within the *extend* key of the main object will not override t
 ## Reduce loading time and file size by purging the unused classes from the CSS
 
 ```bash
-pnpm i postcss-cli @fullhuman/postcss-purgecss --save-dev
+pnpm i postcss postcss-cli @fullhuman/postcss-purgecss --save-dev
 touch postcss.config.js
 ```
 
